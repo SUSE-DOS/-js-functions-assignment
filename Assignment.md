@@ -15,7 +15,7 @@
 **Example:**
 
 ```js
-playGame('rock'); // Computer picked: paper. User picked: rock. User lose.
+playGame("rock"); // Computer picked: paper. User picked: rock. User lose.
 ```
 
 ### 2: Dice Roller
@@ -28,7 +28,7 @@ playGame('rock'); // Computer picked: paper. User picked: rock. User lose.
 **Example:**
 
 ```js
-rollDice() // Dice rolled are 3 and 6 with the sum of 9
+rollDice(); // Dice rolled are 3 and 6 with the sum of 9
 ```
 
 #### Bonus
@@ -39,7 +39,7 @@ rollDice() // Dice rolled are 3 and 6 with the sum of 9
 **Example:**
 
 ```js
-rollDice(3) // Dice rolled are 3, 6, and 7 with the sum of 16
+rollDice(3); // Dice rolled are 3, 6, and 7 with the sum of 16
 ```
 
 ### 3: Research String Methods
@@ -49,31 +49,35 @@ Using [this link](https://www.w3schools.com/js/js_string_methods.asp) please des
 #### Method 1
 
 ```
-Name:
+Name: slice()
 
-Description:
+Description: Takes part of a string and returns the extracted part to a new string.
 
-Example:
+Example: let txt = let str = "Polos, Milky Bar, Mars";
+str.slice(7, 11)     // Returns Milk
 ```
 
 #### Method 1
 
 ```
-Name:
+Name: concat()
 
-Description:
+Description: Joins two or more strings to form a single string.
 
-Example:
+Example: let text1 = "Hello";
+let text2 = "World";
+let text3 = text1.concat(" ", text2);
 ```
 
 #### Method 1
 
 ```
-Name:
+Name: trim()
 
-Description:
+Description: Removes the blank space from both sides of the string.
 
-Example:
+Example: let text = "       Hello World!        ";
+text.trim()    // Returns "Hello World!"
 ```
 
 ## Submission Guidelines
